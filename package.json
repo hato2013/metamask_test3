@@ -1,0 +1,49 @@
+{
+  "name": "metamask_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papilioio/metamask_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papilioio/metamask_test/issues"
+  },
+  "homepage": "https://github.com/papilioio/metamask_test#readme",
+  "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@metamask/onboarding": "^1.0.1",
+    "@metamask/providers": "^8.1.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "add": "^2.0.6",
+    "gray-matter": "^4.0.3",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.2",
+    "typescript": "^4.3.5",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "@types/next": "^9.0.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.12",
+    "styled-components": "^5.3.0"
+  },
+  "browser": {
+    "fs": false
+  }
+}
